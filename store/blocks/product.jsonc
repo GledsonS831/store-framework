@@ -49,7 +49,7 @@
     "props": {
       "visibility": "more-than-one",
       "showValueForVariation": "image",
-      "showVariationsErrorMessage": "false"
+      "showVariationsErrorMessage": false
     }
   }
 }
