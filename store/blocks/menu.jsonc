@@ -1,11 +1,4 @@
 {
-  "header-row#menu": {
-    "children": [
-      "header-spacer",
-      "vtex.menu@2.x:menu#categories",
-      "header-spacer"
-    ]
-  },
   "vtex.menu@2.x:menu#categories": {
     "children": [
       "menu-item#major-appliances",
@@ -20,12 +13,6 @@
   "menu-item#major-appliances": {
     "children": ["vtex.menu@2.x:submenu#major"]
   },
-  "menu-item#small-appliances": {
-    "children": ["vtex.menu@2.x:submenu#small"]
-  },
-  "menu-item#electronics": {
-    "children": ["vtex.menu@2.x:submenu#electronics"]
-  },
   "vtex.menu@2.x:submenu#major": {
     "children": ["vtex.menu@2.x:menu#major"]
   },
@@ -39,6 +26,9 @@
       "menu-item#washers"
     ]
   },
+  "menu-item#small-appliances": {
+    "children": ["vtex.menu@2.x:submenu#small"]
+  },
   "vtex.menu@2.x:submenu#small": {
     "children": ["vtex.menu@2.x:menu#small"]
   },
@@ -47,6 +37,9 @@
       "orientation": "vertical"
     },
     "children": ["menu-item#mixers", "menu-item#toasters", "menu-item#coffee"]
+  },
+  "menu-item#electronics": {
+    "children": ["vtex.menu@2.x:submenu#electronics"]
   },
   "vtex.menu@2.x:submenu#electronics": {
     "children": ["vtex.menu@2.x:menu#electronics"]
