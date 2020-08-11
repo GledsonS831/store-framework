@@ -33,9 +33,6 @@
   },
 
   "flex-layout.row#qty-sku": {
-    "children": ["sku-selector", "product-quantity"]
-  },
-  "product-quantity": {
-    "children": ["shipping-simulator"]
+    "children": ["sku-selector", "product-quantity", "shipping-simulator"]
   }
 }
